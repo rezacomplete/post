@@ -17,7 +17,7 @@ spring:
     console:
       enabled: true
   application:
-    name: user
+    name: post
   profiles:
     active: default
   config:
