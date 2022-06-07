@@ -21,4 +21,10 @@ spring:
   profiles:
     active: default
   config:
-    import: configserver:http://configserver:8083
+    import: configserver:http://localhost:8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
